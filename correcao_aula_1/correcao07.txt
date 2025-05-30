@@ -1,0 +1,5 @@
+# Exercício 07
+segundos = int(input("Digite o número de segundos: "))
+minutos = segundos // 60
+resto = segundos % 60
+print(f"{minutos} minuto(s) e {resto} segundo(s)")
